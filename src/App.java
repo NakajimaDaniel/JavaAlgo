@@ -10,13 +10,19 @@ public class App {
 
     // BinarySearch binary = new BinarySearch(arr, needle);
 
-    BubbleSort bubble = new BubbleSort(unsortedArr);
+    // BubbleSort bubble = new BubbleSort(unsortedArr);
 
     // System.out.println(linear.getResult());
 
     // System.out.println(binary.getResult());
 
-    System.out.println(Arrays.toString(bubble.getResult()));
+    // System.out.println(Arrays.toString(bubble.getResult()));
+
+    int number = 5;
+
+    Recursion rec = new Recursion();
+
+    System.out.println(rec.sum(number));
 
   }
 }
