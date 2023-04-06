@@ -18,11 +18,18 @@ public class App {
 
     // System.out.println(Arrays.toString(bubble.getResult()));
 
-    int number = 5;
+    // int number = 5;
 
-    Recursion rec = new Recursion();
+    // Recursion rec = new Recursion();
 
-    System.out.println(rec.sum(number));
+    // System.out.println(rec.sum(number));
+
+    int target = 1;
+    int hi = arr.length - 1;
+
+    BinarySearchRecursion binaryRecursion = new BinarySearchRecursion();
+
+    System.out.println(binaryRecursion.binarySearch(arr, target, 0, hi));
 
   }
 }
